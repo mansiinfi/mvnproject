@@ -7,7 +7,7 @@ public class Browser {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Downloads\\Browserdrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Downloads\\BrowserDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 
